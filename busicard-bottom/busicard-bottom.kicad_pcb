@@ -1,0 +1,1582 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "/BATT2-")
+	(net 2 "/BATT1+")
+	(net 3 "unconnected-(SW1-1-Pad2)")
+	(net 4 "Net-(D1-A)")
+	(net 5 "unconnected-(SW1-2-Pad4)")
+	(net 6 "/BATT1-")
+	(net 7 "unconnected-(TP5-Pad1)")
+	(net 8 "unconnected-(TP6-Pad1)")
+	(net 9 "unconnected-(TP7-Pad1)")
+	(net 10 "unconnected-(TP8-Pad1)")
+	(net 11 "unconnected-(TP9-Pad1)")
+	(net 12 "unconnected-(TP10-Pad1)")
+	(net 13 "Net-(D1-K)")
+	(footprint "lib:interconnect-base"
+		(layer "F.Cu")
+		(uuid "0c895d24-e5b9-4b6e-8e07-69aa48bc18f7")
+		(at 175 119)
+		(property "Reference" "TP9"
+			(at 0 -2.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9eec0e29-238b-4877-a6f9-7ff2ddb6adb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8521aaea-3f24-41f9-b65c-7d6e527d5bb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:interconnect-base"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f24a756-54d9-4ab2-8bf6-3424413271f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dabfaba-d183-470e-92b3-c2e6700e4664")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1758b620-e728-4dac-919f-993336c89f56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/77ec319e-f3c9-462b-8c5b-c0e150b951e6")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f9aee4f3-7af9-40ab-a098-2971c611058e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 11 "unconnected-(TP9-Pad1)")
+			(pinfunction "1")
+			(pintype "passive+no_connect")
+			(clearance 3)
+			(uuid "583a7033-318a-41f5-852e-db6590d32996")
+		)
+	)
+	(footprint "lib:interconnect-base"
+		(layer "F.Cu")
+		(uuid "31bfceff-8fe1-4293-861a-8d4014ddf9f2")
+		(at 175 81)
+		(property "Reference" "TP1"
+			(at 0 -2.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e34043a1-6a57-445a-a56e-27cd3a2c3f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "BATT1+"
+			(at 0 2.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6dfc56e5-0609-41d1-b558-2caec383f473")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:interconnect-base"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dae20f6e-a3a5-4bbd-8f14-b2feda5266b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cd36d19-9f1d-488b-a712-dbde35e99977")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53568c73-3a79-4459-bee2-06c8807cddaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/90b5def8-7cec-43d0-b5ce-fbb6441b06b0")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "48d0458d-3b5d-4570-a54f-09cd63a77775")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "/BATT1+")
+			(pinfunction "1")
+			(pintype "passive")
+			(clearance 3)
+			(uuid "c3e14563-f330-4e16-871e-2633316418ec")
+		)
+	)
+	(footprint "lib:BUTTON_MEMBRANE_C256108"
+		(layer "F.Cu")
+		(uuid "3c3abf97-9c01-4400-8c56-cf5f8a26a388")
+		(at 190 100)
+		(property "Reference" "SW1"
+			(at 0 -3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "64a64dd0-c097-4a59-aeb3-c37473ad3513")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 4.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6511e544-8f5a-4371-8ea5-3303bde4e992")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:BUTTON_MEMBRANE_C256108"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9519bed8-971f-4ea5-a3aa-25fa60cefd28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0d62b44-f9f6-4bf5-bf25-cf9954744acc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a59816e8-704b-4ec4-8819-268f7006f8f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/3e33ae99-292d-45d6-8d33-14042290564d")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2 -2.25)
+			(end 2 2.25)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "276830f0-7c97-4d43-83fd-784fb411ff40")
+		)
+		(fp_rect
+			(start -2 -2.25)
+			(end 2 2.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "2a539e6b-a896-4779-b6ce-8c387ba96f3f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "647745df-1a9c-42bb-b794-39e4902a2f8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 1.375 -1.475)
+			(size 0.85 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "/BATT1+")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "094be90b-428b-4f18-ae1e-0379f608953d")
+		)
+		(pad "2" smd rect
+			(at 1.375 1.475)
+			(size 0.85 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "unconnected-(SW1-1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive+no_connect")
+			(uuid "2491363c-aeec-4a2c-8ab8-523700b446b4")
+		)
+		(pad "3" smd rect
+			(at -1.375 1.475)
+			(size 0.85 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 4 "Net-(D1-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "96f33b24-9cc1-4a85-99be-edbfe201ec45")
+		)
+		(pad "4" smd rect
+			(at -1.375 -1.475)
+			(size 0.85 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "unconnected-(SW1-2-Pad4)")
+			(pinfunction "2")
+			(pintype "passive+no_connect")
+			(uuid "75230d23-07bd-447d-b897-ecfc4a3e28c5")
+		)
+	)
+	(footprint "lib:interconnect-base"
+		(layer "F.Cu")
+		(uuid "4492f16a-e1aa-482f-ad04-496fff5a457e")
+		(at 134 81)
+		(property "Reference" "TP10"
+			(at 0 -2.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bf9b1b1c-20ed-4426-8996-b312585bdd06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d727ea45-2545-473e-bdfb-cf443a89f8a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:interconnect-base"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e68242cf-695c-45d9-86f7-e26d4cbab261")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25b4ffcb-e011-4d2b-94a3-d8e85a840e04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "869e0a98-2c39-4c66-a4a6-d50118cc9a19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/8c18a9e7-e040-4009-adfa-159f333bf0b9")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1c53422a-ef6e-4e87-b10d-049b0c42863e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 12 "unconnected-(TP10-Pad1)")
+			(pinfunction "1")
+			(pintype "passive+no_connect")
+			(clearance 3)
+			(uuid "7ab01375-7742-4112-aa00-b67dd9bee54e")
+		)
+	)
+	(footprint "lib:battery-base"
+		(layer "F.Cu")
+		(uuid "53e6c867-8e68-4dff-9895-a7209ae56495")
+		(at 171 105)
+		(property "Reference" "TP3"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7b3e9612-394e-4292-8e2b-23bade3b1fc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "BATT2-"
+			(at 0 4.75 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "dec67349-bcda-47db-b697-b224b4074542")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:battery-base"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7660fcd7-36f7-489d-95ef-0dba49760543")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "875807c1-d17d-4376-8e92-297d8ebdd33a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e1dd2e6-def9-466b-8023-205d1f5efac1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/b2f9a555-98a1-463b-9805-09e762e18bd2")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 6.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bacc74c0-136f-4d00-92fb-a7c9792cf12d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 12 12)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "/BATT2-")
+			(pinfunction "1")
+			(pintype "passive")
+			(clearance 5)
+			(uuid "6d079c3a-7638-4141-afc1-49e30c7301d3")
+		)
+	)
+	(footprint "lib:interconnect-base"
+		(layer "F.Cu")
+		(uuid "71ff3c9a-b16d-462f-bc58-d3e4b64387f0")
+		(at 196 119)
+		(property "Reference" "TP5"
+			(at 0 -2.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6f0f85fa-dcfb-4801-ba8c-dbde317dba9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "487bb66a-6667-40ca-98a9-3af57c63dce4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:interconnect-base"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6166417-c666-42ef-88db-d63537091136")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8837924-1e5f-46d5-a4ba-7a2242a19f1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20682d9a-cb22-4a63-97ed-0f87fd9f96e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/0d12b831-a3ef-4992-85fb-f7232faa96c0")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5f36feb5-c437-4ed9-9ff5-6901dcdb5f2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 7 "unconnected-(TP5-Pad1)")
+			(pinfunction "1")
+			(pintype "passive+no_connect")
+			(clearance 3)
+			(uuid "a4b88712-8d39-436f-b364-a0ca4959ec03")
+		)
+	)
+	(footprint "lib:interconnect-base"
+		(layer "F.Cu")
+		(uuid "8f1de10e-a0f6-488c-a1c4-5b365ed10455")
+		(at 196 81)
+		(property "Reference" "TP6"
+			(at 0 -2.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "717bdc6a-d888-4367-bc5e-b905725447ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "99133146-53c6-47bb-8a7d-fddc90f544cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:interconnect-base"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d2a7494-7f10-419a-b306-ee10ff3bd424")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88d3e6e6-8bfb-4514-a356-7111d3b94bb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09665c8d-5bc8-4c6c-836f-38846f0ca46a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/8ad773cc-2600-4fa9-9e27-17f98f0148d2")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "52c34d41-b19f-4d53-8ef3-a5afa54920cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 8 "unconnected-(TP6-Pad1)")
+			(pinfunction "1")
+			(pintype "passive+no_connect")
+			(clearance 3)
+			(uuid "f3ade7e2-d500-4e60-a82a-9139f33898d4")
+		)
+	)
+	(footprint "lib:R_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "93a73440-15ec-4bef-9e08-a590997adddb")
+		(at 195 94 180)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R1"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "93490fb3-9d1c-40ad-becb-d326820d5e2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "37a97100-20a2-4090-88e1-e6776e504627")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:R_0805_2012Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "730ec48f-637f-47e2-8794-00af1989c116")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb74bfda-3c1d-4f3a-bae6-950102f1db49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fc02cbd-fe1f-49d9-b5e6-74936f066ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "DNP"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "066fdff9-f3df-4809-b22f-e3e47bd51ae7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/55d6dc2c-339d-46a1-b236-bdd5e9721867")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.258578 0.71)
+			(end 0.258578 0.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "84d6a495-6f0a-4180-8c1b-9d016046b891")
+		)
+		(fp_line
+			(start -0.258578 -0.71)
+			(end 0.258578 -0.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bb639fc2-568f-4e25-845a-42a397890c9c")
+		)
+		(fp_line
+			(start 1.75 1)
+			(end -1.75 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "53cda9cc-8500-4911-af28-033644104338")
+		)
+		(fp_line
+			(start 1.75 -1)
+			(end 1.75 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "592f309e-a8c5-4df0-897e-815628241d04")
+		)
+		(fp_line
+			(start -1.75 1)
+			(end -1.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "cf07342f-9dab-4508-a968-985175a061db")
+		)
+		(fp_line
+			(start -1.75 -1)
+			(end 1.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "d2d143ed-52a5-482b-ba36-c4523ca89943")
+		)
+		(fp_line
+			(start 1.68 0.95)
+			(end -1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ef623789-c3bb-498d-a1b4-6978f71cd580")
+		)
+		(fp_line
+			(start 1.68 -0.95)
+			(end 1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e284cfc9-5514-44e7-aa24-924700069a75")
+		)
+		(fp_line
+			(start -1.68 0.95)
+			(end -1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c343537c-de63-4d23-9999-da981bf212ed")
+		)
+		(fp_line
+			(start -1.68 -0.95)
+			(end 1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff65f8d9-654c-4817-bd94-cc37c30b53a2")
+		)
+		(fp_line
+			(start 1 0.6)
+			(end -1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b1553dcd-4734-40ce-91c5-4b02e1bb2e2d")
+		)
+		(fp_line
+			(start 1 -0.6)
+			(end 1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2e321da1-9d1a-4457-8928-6db5c3f028ba")
+		)
+		(fp_line
+			(start -1 0.6)
+			(end -1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8e3e4aa4-a252-4d78-9e5c-e349c8973bcc")
+		)
+		(fp_line
+			(start -1 -0.6)
+			(end 1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "03f00078-0283-48e5-9c5e-3861c5662c5a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ea80eb75-ad3a-4d19-8e41-5d43ea1b47f7")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9375 0 180)
+			(size 0.975 1.4)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 13 "Net-(D1-K)")
+			(pintype "passive")
+			(uuid "19c4008d-1109-40d3-8b6e-7bbbbbd25a57")
+		)
+		(pad "2" smd roundrect
+			(at 0.9375 0 180)
+			(size 0.975 1.4)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 1 "/BATT2-")
+			(pintype "passive")
+			(uuid "f974cc71-c342-4c94-8793-79ec9a9944b9")
+		)
+		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lib:battery-base"
+		(layer "F.Cu")
+		(uuid "b4e7a3f0-805b-468c-b6dc-fca59e162edd")
+		(at 145 95)
+		(property "Reference" "TP2"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f3c63ba3-a636-4ceb-8b16-daa203a1b2bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "BATT1-"
+			(at 0 4.75 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "42a063f6-95a7-482b-a5da-ec559f94e021")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:battery-base"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe17eb01-ec2e-4a92-aed8-7112e6236c65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6d8b37f-0788-4999-aeb4-36b367d87acb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58125303-f72e-49ca-b4d8-cf7b5077ad06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/40e00ff9-9f4b-4fe0-958a-ed7e4674eedc")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 6.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7bfdbb11-3735-448c-b431-07c21a191042")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 12 12)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 6 "/BATT1-")
+			(pinfunction "1")
+			(pintype "passive")
+			(clearance 5)
+			(uuid "08d5f934-2fcd-4028-9207-26c63cef9652")
+		)
+	)
+	(footprint "lib:interconnect-base"
+		(layer "F.Cu")
+		(uuid "babc336e-1cbf-4518-ad5b-7278a02830d0")
+		(at 153 81)
+		(property "Reference" "TP8"
+			(at 0 -2.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "df6c4b79-ee61-400b-9cab-0051acf314d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b19777b5-463f-4286-a90e-b0ed55e23b85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:interconnect-base"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f122a3ee-eef6-4103-a4c4-58fb8359e924")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f7226d1-8b86-4422-822e-16e76e1b9a05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c781c5e7-3b71-4bb5-b8a4-9a11b3265fe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/e66411d1-6093-4330-86e8-cc91fa6151aa")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "44669f52-2a84-47f6-9e30-553926099557")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 10 "unconnected-(TP8-Pad1)")
+			(pinfunction "1")
+			(pintype "passive+no_connect")
+			(clearance 3)
+			(uuid "52e0a68e-fd1b-469d-90eb-5c58bee28cf7")
+		)
+	)
+	(footprint "lib:interconnect-base"
+		(layer "F.Cu")
+		(uuid "da0f1c04-4fae-428a-bf3d-c364266b6656")
+		(at 134 119)
+		(property "Reference" "TP4"
+			(at 0 -2.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2321ae23-c7f4-4d63-92ff-75c5229b4201")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "BATT2+"
+			(at 0 2.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1031ef86-56f9-45d4-af3c-1933aec2edbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:interconnect-base"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43362e66-c3cb-40f7-a175-bda23132c829")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34320550-1c53-45f3-8395-26a7eff486f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10c471f6-ab6a-429b-84b8-90ab441b115c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/34287fb9-d045-432e-8fab-ef23ed514e6d")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1cdcba08-b790-4c9c-8275-b1b4cb8bcb43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 6 "/BATT1-")
+			(pinfunction "1")
+			(pintype "passive")
+			(clearance 3)
+			(uuid "7c7f0bcd-17e0-48f0-8d54-9dc1d81cb7ef")
+		)
+	)
+	(footprint "lib:interconnect-base"
+		(layer "F.Cu")
+		(uuid "e479f1f4-008f-4097-a6ed-41d66c4b9c6a")
+		(at 153 119)
+		(property "Reference" "TP7"
+			(at 0 -2.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "44374d1f-e897-43c6-8b73-8b532cf0e816")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c2606031-2c4c-49f4-9a0a-7912f62bc666")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lib:interconnect-base"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0190bb96-5ef3-4552-afeb-890038b6a1a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30f5bc51-ad7f-4999-bb65-fef00b6d597f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de5f5399-dd0e-4cdf-8ebd-92ceb75cfc83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/510ad1fd-ff99-4dd6-8668-190a02586a6c")
+		(sheetfile "busicard-bottom.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "925f853e-bd10-4c10-a79f-f361a8c2ab8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 9 "unconnected-(TP7-Pad1)")
+			(pinfunction "1")
+			(pintype "passive+no_connect")
+			(clearance 3)
+			(uuid "8c26516c-3fd1-4a64-a2fc-a7da69e2f665")
+		)
+	)
+	(gr_rect
+		(start 130 77)
+		(end 200 123)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "2918758d-a1ac-4ad4-aa9f-36facb0bb22d")
+	)
+	(gr_circle
+		(center 190 100)
+		(end 194 100)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "998bd6dc-0ca9-4388-b433-01668832012b")
+	)
+	(gr_circle
+		(center 171 105)
+		(end 182 105)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "d1a2460d-2b9a-44de-8f84-503f9abe7b0c")
+	)
+	(gr_line
+		(start 130 100)
+		(end 233 100)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "d5e91a6d-e852-4194-abff-369f10c4b600")
+	)
+	(gr_circle
+		(center 145 95)
+		(end 156 95)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "d7bec10d-53bb-4c35-a927-bb29b601f0de")
+	)
+	(gr_arc
+		(start 132 123)
+		(mid 130.585786 122.414214)
+		(end 130 121)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "02ec9826-10c8-4557-917e-27c1c866dddf")
+	)
+	(gr_line
+		(start 200 79)
+		(end 200 121)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3d9e88ec-87bb-4d97-b975-df53099d4249")
+	)
+	(gr_line
+		(start 198 77)
+		(end 132 77)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "424ed6d0-9b22-42be-a75e-a1d6cac2a9c2")
+	)
+	(gr_arc
+		(start 200 121)
+		(mid 199.414214 122.414214)
+		(end 198 123)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5e8bb80e-8854-48c2-8a02-2b48547edb85")
+	)
+	(gr_line
+		(start 130 121)
+		(end 130 79)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7b89cf5e-ebd6-4bca-ba0b-f349cae7411f")
+	)
+	(gr_line
+		(start 198 123)
+		(end 132 123)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d011b966-8d9e-4b08-9eed-25b4689189ab")
+	)
+	(gr_arc
+		(start 198 77)
+		(mid 199.414214 77.585786)
+		(end 200 79)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d3859eb2-5fae-4b85-860c-d46f213c96c6")
+	)
+	(gr_arc
+		(start 130 79)
+		(mid 130.585786 77.585786)
+		(end 132 77)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e91d36fd-7eb3-4c46-b008-7985411cde60")
+	)
+	(segment
+		(start 187 81)
+		(end 191.375 85.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "55d9ab87-9c4a-4cfc-b2b0-125a34a3d462")
+	)
+	(segment
+		(start 191.375 85.375)
+		(end 191.375 98.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "61d46d77-a8bf-4005-a4a0-e5c71081be60")
+	)
+	(segment
+		(start 175 81)
+		(end 187 81)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "6dfe106c-5891-4bf7-831b-82653777574a")
+	)
+	(segment
+		(start 145 95)
+		(end 134 106)
+		(width 1)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "56c32eb6-c96d-4baf-b284-f1ededc99105")
+	)
+	(segment
+		(start 134 106)
+		(end 134 119)
+		(width 1)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "ab848d2c-c0d1-4d6d-b32f-e7a64ed17abd")
+	)
+)
