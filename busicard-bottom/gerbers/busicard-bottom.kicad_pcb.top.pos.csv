@@ -5,14 +5,6 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D4","LED","JLCPCB_SIDE_C409529",198.000000,-91.000000,0.000000,top
 "L1","22uH","L_0603_1608Metric",184.950000,-118.500000,0.000000,top
 "SW1","SW_Push","BUTTON_MEMBRANE_C256108",190.000000,-100.000000,0.000000,top
-"TP1","BATT1+","interconnect-base",175.000000,-81.000000,0.000000,top
 "TP2","BATT1-","battery-base",145.000000,-95.000000,0.000000,top
 "TP3","BATT2-","battery-base",171.000000,-105.000000,0.000000,top
-"TP4","BATT2+","interconnect-base",134.000000,-119.000000,0.000000,top
-"TP5","TestPoint","interconnect-base",196.000000,-119.000000,0.000000,top
-"TP6","TestPoint","interconnect-base",196.000000,-81.000000,0.000000,top
-"TP7","TestPoint","interconnect-base",153.000000,-119.000000,0.000000,top
-"TP8","TestPoint","interconnect-base",153.000000,-81.000000,0.000000,top
-"TP9","TestPoint","interconnect-base",175.000000,-119.000000,0.000000,top
-"TP10","TestPoint","interconnect-base",134.000000,-81.000000,0.000000,top
 "U1","ZXSC380FHTA","SOT-23",184.950000,-115.562500,90.000000,top

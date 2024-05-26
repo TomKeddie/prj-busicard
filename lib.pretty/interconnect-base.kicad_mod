@@ -64,7 +64,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr smd exclude_from_pos_files)
 	(fp_text user "${REFERENCE}"
 		(at 0 4 0)
 		(unlocked yes)
