@@ -1,0 +1,8 @@
+"Comment","Designator","Footprint","LCSC"
+"LED","D1","lib:JLCPCB_SIDE_C409529","~","Light emitting diode","lib:JLCPCB_SIDE_C409529","C409529"
+"LED","D2","lib:JLCPCB_SIDE_C409529","~","Light emitting diode","lib:JLCPCB_SIDE_C409529","C409529"
+"LED","D3","lib:JLCPCB_SIDE_C409529","~","Light emitting diode","lib:JLCPCB_SIDE_C409529","C409529"
+"LED","D4","lib:JLCPCB_SIDE_C409529","~","Light emitting diode","lib:JLCPCB_SIDE_C409529","C409529"
+"22uH","L1","lib:L_0603_1608Metric","~","Inductor, small symbol","lib:L_0603_1608Metric","C361669"
+"SW_Push","SW1","lib:BUTTON_MEMBRANE_C256108","~","Push button switch, generic, two pins","lib:BUTTON_MEMBRANE_C256108","C256108"
+"ZXSC380FHTA","U1","lib:SOT-23","","","lib:SOT-23","C780917"

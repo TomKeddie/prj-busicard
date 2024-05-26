@@ -1,18 +1,87 @@
-(footprint "interconnect-base" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -2.25 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 3c1d818b-d328-4e4d-9afe-86b905db7935)
-  )
-  (fp_text value "interconnect-base" (at 0 2.25 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f29962a4-c1fa-4259-bd24-3c79cd7cada4)
-  )
-  (fp_text user "${REFERENCE}" (at 0 4 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d3c9a84a-3dcf-4580-97b1-9831972a7aca)
-  )
-  (pad "1" smd circle (at 0 0) (size 3 3) (layers "F.Cu" "F.Paste" "F.Mask")
-    (clearance 3) (tstamp d1e64762-d91e-4311-a2d3-bbf681d68fc6))
+(footprint "interconnect-base"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c1d818b-d328-4e4d-9afe-86b905db7935")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "interconnect-base"
+		(at 0 2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f29962a4-c1fa-4259-bd24-3c79cd7cada4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "interconnect-base"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82e6606e-7b77-4163-854f-c5fad896b8b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a61fdd9a-aab8-41d1-94ea-89adc82acbda")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b79ac24e-d90e-4361-af9e-8d01e97271eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d3c9a84a-3dcf-4580-97b1-9831972a7aca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 1)
+		(uuid "d1e64762-d91e-4311-a2d3-bbf681d68fc6")
+	)
 )

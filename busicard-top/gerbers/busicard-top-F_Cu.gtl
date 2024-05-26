@@ -1,0 +1,51 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.2-1.fc40*
+G04 #@! TF.CreationDate,2024-05-25T20:13:00-07:00*
+G04 #@! TF.ProjectId,busicard-top,62757369-6361-4726-942d-746f702e6b69,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L1,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.2-1.fc40) date 2024-05-25 20:13:00*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD10C,6.000000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.P,TP9,1,1*
+G04 #@! TO.N,unconnected-(TP9-Pad1)*
+X175000000Y-119000000D03*
+G04 #@! TD*
+G04 #@! TO.P,TP1,1,1*
+G04 #@! TO.N,/BATT1+*
+X175000000Y-81000000D03*
+G04 #@! TD*
+G04 #@! TO.P,TP10,1,1*
+G04 #@! TO.N,unconnected-(TP10-Pad1)*
+X134000000Y-81000000D03*
+G04 #@! TD*
+G04 #@! TO.P,TP5,1,1*
+G04 #@! TO.N,unconnected-(TP5-Pad1)*
+X196000000Y-119000000D03*
+G04 #@! TD*
+G04 #@! TO.P,TP6,1,1*
+G04 #@! TO.N,unconnected-(TP6-Pad1)*
+X196000000Y-81000000D03*
+G04 #@! TD*
+G04 #@! TO.P,TP8,1,1*
+G04 #@! TO.N,unconnected-(TP8-Pad1)*
+X153000000Y-81000000D03*
+G04 #@! TD*
+G04 #@! TO.P,TP4,1,1*
+G04 #@! TO.N,/BATT2+*
+X134000000Y-119000000D03*
+G04 #@! TD*
+G04 #@! TO.P,TP7,1,1*
+G04 #@! TO.N,unconnected-(TP7-Pad1)*
+X153000000Y-119000000D03*
+G04 #@! TD*
+M02*

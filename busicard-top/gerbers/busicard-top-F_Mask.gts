@@ -1,0 +1,41 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.2-1.fc40*
+G04 #@! TF.CreationDate,2024-05-25T20:13:00-07:00*
+G04 #@! TF.ProjectId,busicard-top,62757369-6361-4726-942d-746f702e6b69,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Soldermask,Top*
+G04 #@! TF.FilePolarity,Negative*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.2-1.fc40) date 2024-05-25 20:13:00*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,6.000000*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,TP9*
+X175000000Y-119000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP1*
+X175000000Y-81000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP10*
+X134000000Y-81000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP5*
+X196000000Y-119000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP6*
+X196000000Y-81000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP8*
+X153000000Y-81000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP4*
+X134000000Y-119000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP7*
+X153000000Y-119000000D03*
+G04 #@! TD*
+M02*
