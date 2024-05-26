@@ -1,18 +1,87 @@
-(footprint "battery-base" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 07696564-4200-490d-b610-e70337a7dd12)
-  )
-  (fp_text value "battery-base" (at 0 4.75 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp dc374548-c999-46fc-b320-8acfdf5b9cb7)
-  )
-  (fp_text user "${REFERENCE}" (at 0 6.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c9c77d5c-a758-400b-a74c-e241360b23ae)
-  )
-  (pad "1" smd circle (at 0 0) (size 12 12) (layers "F.Cu" "F.Paste" "F.Mask")
-    (clearance 5) (tstamp 5080a666-e209-454e-a178-93e9715b437b))
+(footprint "battery-base"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "07696564-4200-490d-b610-e70337a7dd12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "battery-base"
+		(at 0 4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dc374548-c999-46fc-b320-8acfdf5b9cb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "battery-base"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a85da027-dd66-43c1-a409-9d0e479b0821")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b307ee46-53cb-4fdc-bf71-b123ae8ac5b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f4c03b5-300c-4efd-8f2f-46285a6a29ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c9c77d5c-a758-400b-a74c-e241360b23ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 12 12)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 5)
+		(uuid "5080a666-e209-454e-a178-93e9715b437b")
+	)
 )
