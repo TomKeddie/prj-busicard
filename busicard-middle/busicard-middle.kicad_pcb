@@ -1228,6 +1228,17 @@
 		(layer "Edge.Cuts")
 		(uuid "fc08de8c-8025-4dcf-909b-2d31bdecce92")
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 143 119 0)
+		(layer "F.SilkS")
+		(uuid "5b0b80b3-b3cc-499d-aca4-089a89e16de0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(gr_text "thickness should be 1.6mm\nuse two for cr2032?"
 		(at 132 100 270)
 		(layer "F.SilkS")

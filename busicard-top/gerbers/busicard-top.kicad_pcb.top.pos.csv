@@ -1,4 +1,6 @@
 Ref,Val,Package,PosX,PosY,Rot,Side
+"H1","mech-only-no-pins","JLC_ASSEMBLY_HOLE",164.000000,-81.000000,0.000000,top
+"H2","mech-only-no-pins","JLC_ASSEMBLY_HOLE",164.000000,-119.000000,0.000000,top
 "TP1","BATT1+","interconnect-top",175.000000,-81.000000,0.000000,top
 "TP4","BATT2+","interconnect-top",134.000000,-119.000000,0.000000,top
 "TP5","TestPoint","interconnect-top",196.000000,-119.000000,0.000000,top
