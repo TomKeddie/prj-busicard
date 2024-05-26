@@ -1,6 +1,4 @@
 "Comment","Designator","Footprint","LCSC"
-"mech-only-no-pins","H1","lib:JLC_ASSEMBLY_HOLE","","","lib:JLC_ASSEMBLY_HOLE"
-"mech-only-no-pins","H2","lib:JLC_ASSEMBLY_HOLE","","","lib:JLC_ASSEMBLY_HOLE"
 "BATT1+","TP1","lib:interconnect-top","~","test point","lib:interconnect-top"
 "BATT1+","TP2","lib:TestPoint_Pad_D3.0mm","~","test point","lib:TestPoint_Pad_D3.0mm"
 "BATT2+","TP3","lib:TestPoint_Pad_D3.0mm","~","test point","lib:TestPoint_Pad_D3.0mm"

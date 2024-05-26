@@ -1,9 +1,9 @@
 Ref,Val,Package,PosX,PosY,Rot,Side
-"TP1","BATT1+","interconnect-middle",175.000000,-81.000000,0.000000,top
-"TP4","BATT2+","interconnect-middle",134.000000,-119.000000,0.000000,top
-"TP5","TestPoint","interconnect-middle",196.000000,-119.000000,0.000000,top
-"TP6","TestPoint","interconnect-middle",196.000000,-81.000000,0.000000,top
-"TP7","TestPoint","interconnect-middle",153.000000,-119.000000,0.000000,top
-"TP8","TestPoint","interconnect-middle",153.000000,-81.000000,0.000000,top
-"TP9","TestPoint","interconnect-middle",175.000000,-119.000000,0.000000,top
-"TP10","TestPoint","interconnect-middle",134.000000,-81.000000,0.000000,top
+"TP1","BATT1+","interconnect-middle",175.000000,-80.500000,0.000000,top
+"TP4","BATT2+","interconnect-middle",134.000000,-119.500000,0.000000,top
+"TP5","TestPoint","interconnect-middle",196.500000,-119.500000,0.000000,top
+"TP6","TestPoint","interconnect-middle",196.500000,-80.500000,0.000000,top
+"TP7","TestPoint","interconnect-middle",153.000000,-119.500000,0.000000,top
+"TP8","TestPoint","interconnect-middle",153.000000,-80.500000,0.000000,top
+"TP9","TestPoint","interconnect-middle",175.000000,-119.500000,0.000000,top
+"TP10","TestPoint","interconnect-middle",133.500000,-80.500000,0.000000,top
